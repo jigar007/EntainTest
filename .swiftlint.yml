@@ -1,0 +1,34 @@
+# Enable additional opt-in rules
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - operator_usage_whitespace
+  - unused_import
+  - vertical_whitespace
+
+# Set a maximum line length
+line_length:
+  warning: 120
+  error: 140
+
+# Specify included and excluded paths
+included:
+  - NextToGo
+
+excluded:
+  - Pods
+  - Carthage
+  - fastlane
+  - ThirdParty
+
+# Customize warning levels for specific rules
+type_body_length:
+  warning: 300
+  error: 400
+
+function_body_length:
+  warning: 40
+  error: 60
+
+# Define custom reporters (Xcode-friendly output)
+reporter: "xcode"
