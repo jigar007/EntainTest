@@ -102,7 +102,7 @@
 				013B5A532D8C39DE005BC16F /* Sources */,
 				013B5A542D8C39DE005BC16F /* Frameworks */,
 				013B5A552D8C39DE005BC16F /* Resources */,
-				013B5A852D8C3B90005BC16F /* SwiftLint */,
+				01507CB72D8C43E00007FECE /* SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -196,6 +196,8 @@
 			);
 			mainGroup = 013B5A4E2D8C39DE005BC16F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 013B5A582D8C39DE005BC16F /* Products */;
 			projectDirPath = "";
@@ -233,8 +235,9 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		013B5A852D8C3B90005BC16F /* SwiftLint */ = {
+		01507CB72D8C43E00007FECE /* SwiftLint Script */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -242,14 +245,15 @@
 			);
 			inputPaths = (
 			);
-			name = SwiftLint;
+			name = "SwiftLint Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect --format\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -420,6 +424,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NextToGo/Preview Content\"";
 				DEVELOPMENT_TEAM = 8PUJ558ZPM;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NextToGo/Preview Content\"";
 				DEVELOPMENT_TEAM = 8PUJ558ZPM;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
