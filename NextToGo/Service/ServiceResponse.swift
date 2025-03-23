@@ -28,8 +28,10 @@ struct ServiceResponse {
         }
     }
     
+    // swiftlint:disable:next orphaned_doc_comment
     /// Validates the HTTP response status code
     /// - Throws: ServiceError if the status code indicates an error
+    // swiftlint:disable:next cyclomatic_complexity
     private func validateHTTPResponse() throws {
         if let httpResponse = response as? HTTPURLResponse {
             let statusCode = httpResponse.statusCode

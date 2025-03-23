@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RaceSummary: Decodable,  Identifiable {
+struct RaceSummary: Decodable, Identifiable {
     let id: String
     let raceName: String
     let raceNumber: Int
