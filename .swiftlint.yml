@@ -1,10 +1,17 @@
+trailing_whitespace:
+  ignores_empty_lines: true  # Allows trailing whitespace on empty lines
+  severity: error
+
 # Enable additional opt-in rules
 opt_in_rules:
   - empty_count
   - explicit_init
   - operator_usage_whitespace
-  - unused_import
   - vertical_whitespace
+  
+# Enable analyzer-specific rules (for 'swiftlint analyze')
+analyzer_rules:
+  - unused_import
 
 # Set a maximum line length
 line_length:
