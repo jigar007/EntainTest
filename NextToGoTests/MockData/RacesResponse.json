@@ -1,0 +1,89 @@
+{
+    "status": 200,
+    "data": {
+        "next_to_go_ids": [
+            "b86f9678-c3ea-4047-a21c-8907f02d6da3",
+            "d06fdbe6-b333-4b75-93b7-bd21c8fcdb27"
+        ],
+        "race_summaries": {
+            "b86f9678-c3ea-4047-a21c-8907f02d6da3": {
+                "race_id": "b86f9678-c3ea-4047-a21c-8907f02d6da3",
+                "race_name": "S A Wahid Handicap",
+                "race_number": 1,
+                "meeting_id": "c97b9d68-4c09-4dba-9128-27c5aa0e7802",
+                "meeting_name": "Mumbai",
+                "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+                "advertised_start": {
+                    "seconds": 1742727600
+                },
+                "race_form": {
+                    "distance": 1600,
+                    "distance_type": {
+                        "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "name": "Metres",
+                        "short_name": "m"
+                    },
+                    "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                    "track_condition": {
+                        "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                        "name": "Good",
+                        "short_name": "good"
+                    },
+                    "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                    "weather": {
+                        "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+                        "name": "Fine",
+                        "short_name": "fine",
+                        "icon_uri": "Fine"
+                    },
+                    "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+                    "race_comment": "REMY RED (2) was in the money two starts back at this track but was unable to repeat the effort last time when sixth, beaten 5 lengths, at this track over 1400m. Looks well placed so expect a big run this time. YULETIDE (6) is finding the breakthrough elusive, beaten 6 lengths into seventh at his latest appearance over 1400m at this track. Has the pace to settle in the leading division. Best figures should see him run well. MAJOR SAAB (3) is a six-start maiden who finished fifth at his most recent outing over 2000m at this track. Worth including in this suitable contest. CHANDRAYAAN (1) is back after a break of five-and-a-half months. At the last run before the layoff she finished seventh over 1600m at Pune. Has ability and is worth including.",
+                    "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Mumbai\",\"state\":\"IND\",\"country\":\"IND\",\"number\":1,\"race_name\":\"S A Wahid Handicap\",\"time\":\"2025-03-23T11:00:00Z\",\"class\":\"HCP1-26, CL5\",\"start_type\":\"\",\"prizemonies\":{\"1st\":243035,\"2nd\":135007,\"3rd\":108027,\"4th\":26980,\"5th\":16231,\"6th\":10749,\"total_value\":9178},\"localised_prizemonies\":{\"AUD\":{\"1st\":4314,\"2nd\":2294,\"3rd\":1836,\"4th\":459,\"5th\":275,\"total_value\":9178},\"NZD\":{\"1st\":4745,\"2nd\":2523,\"3rd\":2020,\"4th\":505,\"5th\":302,\"total_value\":10096}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"Turf\",\"group\":\"\",\"gait\":\"Gallop\",\"track_home_straight_metres\":0,\"track_circumference\":0}}",
+                    "generated": 1,
+                    "silk_base_url": "drr38safykj6s.cloudfront.net",
+                    "race_comment_alternative": "REMY RED (2) was in the money two starts back at this track but was unable to repeat the effort last time when sixth, beaten 5 lengths, at this track over 1400m. Looks well placed so expect a big run this time. YULETIDE (6) is finding the breakthrough elusive, beaten 6 lengths into seventh at his latest appearance over 1400m at this track. Has the pace to settle in the leading division. Best figures should see him run well. MAJOR SAAB (3) is a six-start maiden who finished fifth at his most recent outing over 2000m at this track. Worth including in this suitable contest. CHANDRAYAAN (1) is back after a break of five-and-a-half months. At the last run before the layoff she finished seventh over 1600m at Pune. Has ability and is worth including."
+                },
+                "venue_id": "ca85d501-afdb-4d3d-9824-977e1b96b842",
+                "venue_name": "Mumbai",
+                "venue_state": "IND",
+                "venue_country": "IND"
+            },
+            "d06fdbe6-b333-4b75-93b7-bd21c8fcdb27": {
+                "race_id": "d06fdbe6-b333-4b75-93b7-bd21c8fcdb27",
+                "race_name": "275Mtrs (D2)",
+                "race_number": 3,
+                "meeting_id": "70848680-9331-4259-8425-41ef201ca53b",
+                "meeting_name": "Doncaster Bags",
+                "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+                "advertised_start": {
+                    "seconds": 1742727840
+                },
+                "race_form": {
+                    "distance": 275,
+                    "distance_type": {
+                        "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "name": "Metres",
+                        "short_name": "m"
+                    },
+                    "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                    "track_condition": {
+                        "id": "9d03760c-88d2-4c89-9611-ae6eb7cdb76c",
+                        "name": "Synthetic",
+                        "short_name": "synthetic"
+                    },
+                    "track_condition_id": "9d03760c-88d2-4c89-9611-ae6eb7cdb76c",
+                    "race_comment": "BLITZ BRAX (2) is a handy dog who jumped from box 2 last time out and scored by 2.5 lengths at this track (17.14). Ran one of the fastest times on the program in his latest win. Should feature again. GLENGAR FELIX (5) had some strong recent form but was below best last time when fifth (17.59) in a D2 at this track. Generally fast into stride but was shuffled back from trap five last time. Solid record here at the distance winning three races. Should be about the mark. EDENCURRA GAGA (6) is a capable type and proved too classy last time to win by 1.3 lengths at this track in a handy 17.17 beating Rapido Harry. Can make it two on the bounce. BLITZ BECKY (1) boasts a strong record this journey here with 10 wins and seven minors from 24 tries. Hit the frame latest (17.18) when second at this track in a D2. Expected to go close.",
+                    "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Doncaster Bags\",\"state\":\"UK\",\"country\":\"UK\",\"number\":3,\"race_name\":\"275Mtrs (D2)\",\"time\":\"2025-03-23T11:04:00Z\",\"class\":\"D2\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":524},\"localised_prizemonies\":{\"AUD\":{\"1st\":195,\"2nd\":82,\"3rd\":82,\"4th\":82,\"5th\":82,\"total_value\":524},\"NZD\":{\"1st\":215,\"2nd\":90,\"3rd\":90,\"4th\":90,\"5th\":90,\"total_value\":576}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"All Weather\",\"group\":\"\",\"gait\":\"Gallop\",\"track_home_straight_metres\":0,\"track_circumference\":0}}",
+                    "generated": 1,
+                    "silk_base_url": "drr38safykj6s.cloudfront.net",
+                    "race_comment_alternative": "BLITZ BRAX (2) is a handy dog who jumped from box 2 last time out and scored by 2.5 lengths at this track (17.14). Ran one of the fastest times on the program in his latest win. Should feature again. GLENGAR FELIX (5) had some strong recent form but was below best last time when fifth (17.59) in a D2 at this track. Generally fast into stride but was shuffled back from trap five last time. Solid record here at the distance winning three races. Should be about the mark. EDENCURRA GAGA (6) is a capable type and proved too classy last time to win by 1.3 lengths at this track in a handy 17.17 beating Rapido Harry. Can make it two on the bounce. BLITZ BECKY (1) boasts a strong record this journey here with 10 wins and seven minors from 24 tries. Hit the frame latest (17.18) when second at this track in a D2. Expected to go close."
+                },
+                "venue_id": "c4fb30d9-db2b-49c2-9a75-71e8b57a8aea",
+                "venue_name": "Doncaster Bags",
+                "venue_state": "UK",
+                "venue_country": "UK"
+            }
+        }
+    },
+    "message": "Next 2 races from each category"
+}
