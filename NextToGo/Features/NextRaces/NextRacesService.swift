@@ -7,11 +7,12 @@
 
 import Foundation
 
-protocol NextRaces {
+protocol NextRacesProvider {
     func fetchNext(races: Int) async throws -> RaceResponse
 }
 
-class NextRacesService: NextRaces {
+// Further related methods can be added here
+class NextRacesService: NextRacesProvider {
     public func fetchNext(races: Int) async throws -> RaceResponse {
         try await NextRacesRequest(races: races).perform().parse(RaceResponse.self)
     }

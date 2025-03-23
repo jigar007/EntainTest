@@ -16,7 +16,6 @@ struct RaceForm: Decodable {
     let weather: Weather?
     let weatherId: String?
     let raceComment: String
-    let additionalData: AdditionalData
     let generated: Int
     let silkBaseUrl: String
     let raceCommentAlternative: String
@@ -47,12 +46,6 @@ struct RaceForm: Decodable {
         weather = try container.decodeIfPresent(Weather.self, forKey: .weather)
         weatherId = try container.decodeIfPresent(String.self, forKey: .weatherId)
         raceComment = try container.decode(String.self, forKey: .raceComment)
-        
-        // Decode additional_data as a JSON string and parse it
-        let additionalDataString = try container.decode(String.self, forKey: .additionalData)
-        let jsonData = additionalDataString.data(using: .utf8)!
-        additionalData = try JSONDecoder().decode(AdditionalData.self, from: jsonData)
-        
         generated = try container.decode(Int.self, forKey: .generated)
         silkBaseUrl = try container.decode(String.self, forKey: .silkBaseUrl)
         raceCommentAlternative = try container.decode(String.self, forKey: .raceCommentAlternative)

@@ -13,7 +13,7 @@ private class TestBundleClass { }
 
 struct ServiceResponseTests {
     @Test
-    func TestJSONParse() async throws {
+    func JSONParsing() async throws {
         let bundle = Bundle(for: TestBundleClass.self)
         if let jsonURL = bundle.url(forResource: "RacesResponse", withExtension: "json") {
             let data = try Data(contentsOf: jsonURL)
