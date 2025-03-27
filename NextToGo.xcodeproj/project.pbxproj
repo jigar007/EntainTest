@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		012C46BD2D9587F400778E3A /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 012C46BC2D9587F400778E3A /* ReadMe.md */; };
 		01507CC22D8CAE150007FECE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 01507CC12D8CAE150007FECE /* .swiftlint.yml */; };
+		01AF50B62D95914600F9487A /* Horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AF50B42D95914600F9487A /* Horse.png */; };
+		01AF50B72D95914600F9487A /* Greyhound.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AF50B52D95914600F9487A /* Greyhound.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		013B5A672D8C39DF005BC16F /* NextToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013B5A712D8C39DF005BC16F /* NextToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01507CC12D8CAE150007FECE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		01AF50B42D95914600F9487A /* Horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Horse.png; sourceTree = "<group>"; };
+		01AF50B52D95914600F9487A /* Greyhound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Greyhound.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,6 +88,7 @@
 			children = (
 				012C46BC2D9587F400778E3A /* ReadMe.md */,
 				01507CC12D8CAE150007FECE /* .swiftlint.yml */,
+				01AF50B82D95914F00F9487A /* ScreenShots */,
 				013B5A592D8C39DE005BC16F /* NextToGo */,
 				013B5A6A2D8C39DF005BC16F /* NextToGoTests */,
 				013B5A742D8C39DF005BC16F /* NextToGoUITests */,
@@ -99,6 +104,15 @@
 				013B5A712D8C39DF005BC16F /* NextToGoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		01AF50B82D95914F00F9487A /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				01AF50B42D95914600F9487A /* Horse.png */,
+				01AF50B52D95914600F9487A /* Greyhound.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				012C46BD2D9587F400778E3A /* ReadMe.md in Resources */,
+				01AF50B62D95914600F9487A /* Horse.png in Resources */,
+				01AF50B72D95914600F9487A /* Greyhound.png in Resources */,
 				01507CC22D8CAE150007FECE /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
