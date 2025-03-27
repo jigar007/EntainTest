@@ -28,10 +28,7 @@ class PublishedCapture<T> {
 
 @Suite("NextRacesViewModel Races Tests")
 struct NextRacesViewModelTests {
-    let viewModel = NextRacesViewModel(nextRaces: MockRaceProvier())
-
-    func
-    
+    let viewModel = NextRacesViewModel(nextRaces: MockRaceProvier())    
     
     @Test("Races updates after fetch")
     func testFetchUpdatesRaces() async throws {
