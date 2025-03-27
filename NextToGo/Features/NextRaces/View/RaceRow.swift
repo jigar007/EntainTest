@@ -15,7 +15,7 @@ struct RaceRow: View {
     
     var body: some View {
         HStack {
-            Image(systemName: categoryIcon(for: race.category))
+            Image(categoryIcon(for: race.category))
                 .foregroundColor(.gray)
                 .accessibilityHidden(true)
             
@@ -41,11 +41,11 @@ struct RaceRow: View {
         }
     }
     
-    private func categoryIcon(for category: RaceCategory) -> String {
+    private func categoryIcon(for category: RaceCategory) -> ImageResource {
         switch category {
-        case .greyhound: return "dog.fill"
-        case .harness: return "cart.fill"
-        case .horse: return "hare.fill"
+        case .greyhound: return .greyhoundSymbols
+        case .harness: return .harnessSymbols
+        case .horse: return .horseSymbols
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012C46BD2D9587F400778E3A /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 012C46BC2D9587F400778E3A /* ReadMe.md */; };
 		01507CC22D8CAE150007FECE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 01507CC12D8CAE150007FECE /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012C46BC2D9587F400778E3A /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		013B5A572D8C39DE005BC16F /* NextToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013B5A672D8C39DF005BC16F /* NextToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013B5A712D8C39DF005BC16F /* NextToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 		013B5A4E2D8C39DE005BC16F = {
 			isa = PBXGroup;
 			children = (
+				012C46BC2D9587F400778E3A /* ReadMe.md */,
 				01507CC12D8CAE150007FECE /* .swiftlint.yml */,
 				013B5A592D8C39DE005BC16F /* NextToGo */,
 				013B5A6A2D8C39DF005BC16F /* NextToGoTests */,
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012C46BD2D9587F400778E3A /* ReadMe.md in Resources */,
 				01507CC22D8CAE150007FECE /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
