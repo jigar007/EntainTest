@@ -11,11 +11,9 @@ NextToGo is an iOS application that provides real-time information about upcomin
 
 ## Screenshots
 
-### Horse Racing
-![Horse Racing](ScreenShots/Horse.png)
-
-### Greyhound Racing
-![Greyhound Racing](ScreenShots/Greyhound.png)
+| Horse Racing | Greyhound Racing |
+|--------------|------------------|
+| <img src="ScreenShots/Horse.png" width="300"> | <img src="ScreenShots/Greyhound.png" width="300"> |
 
 ## Requirements
 
